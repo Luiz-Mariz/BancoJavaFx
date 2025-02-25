@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ffff00;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <right>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="233.0" fitWidth="371.0" layoutX="-64.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/formacao_sera-que-sou-uma-pessoa-que-tem-virtudes.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="-66.0" layoutY="149.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="369.0" style="-fx-background-color: #f0c609;" text="Outras Opcçoes">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="-66.0" layoutY="103.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="369.0" style="-fx-background-color: #f0c609;" text="Fatura">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="-66.0" layoutY="53.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="369.0" style="-fx-background-color: #f0c609;" text="Informaçoes Pessoais">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="59.0" fitWidth="75.0" layoutX="248.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/banco-do-brasil-logo-0.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </right>
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="19.0" prefHeight="63.0" prefWidth="178.0" text="SALDO:  1000">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+            </Label>
+            <TextField layoutX="21.0" layoutY="177.0" prefHeight="46.0" prefWidth="165.0" />
+            <Button layoutX="45.0" layoutY="330.0" mnemonicParsing="false" style="-fx-background-color: #f0c609;" text="Confirmar">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button graphicTextGap="0.0" layoutX="27.0" layoutY="106.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="160.0" style="-fx-background-color: #f0c609;" />
+            <Label layoutX="29.0" layoutY="110.0" text="VALOR SAQUE">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>
